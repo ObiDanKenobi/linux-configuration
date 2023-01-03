@@ -22,6 +22,11 @@ alias upgrade='sudo apt install'
 alias less='less -r'
 alias cls='clear'
 
+#grep
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
 #performance
 alias cpu5='ps auxf | sort -nr -k 3 | head -n 5'
 alias mem5='ps auxf | sort -nr -k 4 | head -n 5'
