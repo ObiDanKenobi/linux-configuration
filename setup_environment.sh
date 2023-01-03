@@ -1,0 +1,1 @@
+#wget https://raw.githubusercontent.com/ObiDanKenobi/linux-configuration/main/setup_environment.sh
