@@ -72,8 +72,8 @@ alias tfaa='terraform.exe apply --auto-approve '
 alias tfv='terraform.exe validate '
 
 #azure cli
-alias azas='azure account show'
-alias azass='azure account set --subscription '
+alias azas='az account show'
+alias azass='az account set --subscription '
 
 #kubectl
 alias k='kubectl'
