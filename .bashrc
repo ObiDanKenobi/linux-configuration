@@ -74,6 +74,7 @@ alias tfv='terraform.exe validate '
 #azure cli
 alias azas='az account show'
 alias azass='az account set --subscription '
+alias azld='az login --use-device-code '
 
 #kubectl
 alias k='kubectl'
