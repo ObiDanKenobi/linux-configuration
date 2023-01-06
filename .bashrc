@@ -65,6 +65,7 @@ alias gta='git tag -a '
 
 #terraform
 alias tfi='terraform.exe init '
+alias tfibc='terraform.exe init -backend-config'
 alias tfp='terraform.exe plan '
 alias ctfp='clear & terraform.exe plan '
 alias tfa='terraform.exe apply '
