@@ -1,3 +1,8 @@
+# for kubernetes context switch shortcuts
+#export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+#source /home/dan/kube-ps1/kube-ps1.sh
+#PS1='[\u@\h \W $(kube_ps1)]\$'
+
 ###   ALIASES   ###
 
 #navigation
@@ -12,6 +17,10 @@ alias ls='ls -lF --color --show-control-chars'
 #alias ls='ls -l'
 alias ll='ls -l'
 alias lsa='ls -a'
+
+# disk usage
+alias du='du -h --max-depth=1'
+alias dus='du -h --max-depth=1 | sort -hr'
 
 #apt
 alias install='sudo apt install'
