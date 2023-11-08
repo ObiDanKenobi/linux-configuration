@@ -111,3 +111,6 @@ alias klo='kubectl logs -f'
 alias kex='kubectl exec -i -t'
 alias kroll='kubectl rollout restart deployment'
 alias kdp='kubectl describe pod'
+
+#home
+alias restart-yacht='ssh dan@192.168.70.30 "docker compose --project-directory /mnt/docker/actuale/yacht restart"'
