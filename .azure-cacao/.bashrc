@@ -1,6 +1,19 @@
 #load default .bashrc file
 test -f ~/.bashrc && . ~/.bashrc
 
+####################################################################
+#
+#     git prompt
+#
+####################################################################
+
+if test -f ~/.config/git-prompt.sh
+then
+    . ~/.config/git-prompt.sh
+else
+    # lines omitted
+fi
+
 export AZURE_CONFIG_DIR=C:\\Users\\dan\\.azure-cacao;
 export HISTFILE=C:\\Users\\dan\\.azure-cacao\\.bash_history;
 

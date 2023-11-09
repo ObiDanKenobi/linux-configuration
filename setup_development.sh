@@ -13,3 +13,9 @@ mkdir -p .azure-gzplein
 rm .azure-gzplein/.bashrc
 wget -q --no-cache -O .azure-gzplein/.bashrc https://raw.githubusercontent.com/ObiDanKenobi/linux-configuration/main/.azure-gzplein/.bashrc
 wget -q --no-cache -O .azure-gzplein/gzplein-icon.ico https://raw.githubusercontent.com/ObiDanKenobi/linux-configuration/main/.azure-gzplein/gzplein-icon.ico
+
+
+#more info about settings: https://dev.to/blikoor/customize-git-bash-shell-498l
+mkdir -p .config
+rm .config/git-prompt.sh
+wget -q --no-cache -O .config/git-prompt.sh https://raw.githubusercontent.com/ObiDanKenobi/linux-configuration/main/.config/git-prompt.sh

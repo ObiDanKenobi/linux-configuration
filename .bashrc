@@ -43,6 +43,7 @@ shopt -s cmdhist
 # History substitution are not immediately passed to the shell parser.
 shopt -s histappend histverify
 
+
 ####################################################################
 #
 #     ALIASES
