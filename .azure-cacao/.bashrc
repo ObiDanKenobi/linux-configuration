@@ -2,6 +2,7 @@
 test -f ~/.bashrc && . ~/.bashrc
 
 export AZURE_CONFIG_DIR=C:\\Users\\dan\\.azure-cacao;
+export HISTFILE=C:\\Users\\dan\\.azure-cacao\\.bash_history;
 
 #Tenant AgoraSys
 alias azlg='az login --tenant d27f5ae3-1ffc-4ffa-9593-a3e09246d33c --use-device-code'
