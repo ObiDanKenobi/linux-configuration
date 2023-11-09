@@ -82,6 +82,16 @@
               "icon": "C:\\Users\\dan\\.azure-cacao\\cacao-icon.png",
               "name": "Cacao Bash",
               "startingDirectory": "D:\\netmatch\\cacao\\infrastructure\\terraform\\infrastructure\\module"
+          },
+          {
+              "colorScheme": "One Half Dark",
+              "commandline": "C:\\Program Files\\Git\\bin\\bash.exe -rcfile %USERPROFILE%\\.azure-corendon\\.bashrc",
+              "cursorShape": "bar",
+              "guid": "{31bc2b7b-e988-4acd-adfa-88ff78b5b2dc}",
+              "hidden": false,
+              "icon": "C:\\Users\\dan\\.azure-corendon\\corendon-icon.ico",
+              "name": "Corendon Admin Bash",
+              "startingDirectory": "D:\\netmatch\\corendon"
           }
       ]
   },
