@@ -3,7 +3,7 @@ test -f ~/.bashrc && . ~/.bashrc
 
 export AZURE_CONFIG_DIR=C:\\Users\\dan\\.azure-corendon;
 
-#Tenant AgoraSys
+#Tenant Corendon
 alias azlg='az login --tenant 0e702811-a4a9-4bbb-9e52-33dcc3acb3d3 --use-device-code'
 
 #switch between environments

@@ -2,9 +2,13 @@
 test -f ~/.bashrc && . ~/.bashrc
 
 export AZURE_CONFIG_DIR=C:\\Users\\dan\\.azure-gzplein;
+export HISTFILE=C:\\Users\\dan\\.azure-gzplein\\.bash_history;
 
-#Tenant AgoraSys
-alias azlg='az login --tenant 5420e26f-2cd5-4d71-91b8-1a5e952b5025 --use-device-code'
+
+#Tenant Gz Plein
+# --use-device-code is not working for Gz Plein
+#alias azlg='az login --tenant 5420e26f-2cd5-4d71-91b8-1a5e952b5025 --use-device-code'
+alias azlg='az login --tenant 5420e26f-2cd5-4d71-91b8-1a5e952b5025'
 
 #switch between environments
 alias go-snonp='az account set --subscription "PLEIN NON-PRODUCTION"'
