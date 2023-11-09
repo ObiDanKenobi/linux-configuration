@@ -3,7 +3,51 @@
 #source /home/dan/kube-ps1/kube-ps1.sh
 #PS1='[\u@\h \W $(kube_ps1)]\$'
 
-###   ALIASES   ###
+####################################################################
+#
+#     settings like history, etc
+#
+####################################################################
+
+# Automatically fix directory name typos when changing directory.
+shopt -s cdspell
+
+# Automatically expand directory globs and fix directory name typos whilst completing. 
+# Note, this works in conjuction with the cdspell option listed above.
+shopt -s direxpand dirspell
+
+# Enable the ** globstar recursive pattern in file and directory expansions.
+# For example, ls **/*.txt will list all text files in the current directory hierarchy.
+shopt -s globstar
+
+# Ignore lines which begin with a <space> and match previous entries.
+# Erase duplicate entries in history file.
+HISTCONTROL=ignoreboth:erasedups
+
+# Ignore saving short- and other listed commands to the history file.
+HISTIGNORE=?:??:history
+
+# The maximum number of lines in the history file.
+HISTFILESIZE=99999
+
+# The number of entries to save in the history file.
+HISTSIZE=99999
+
+# Set Bash to save each command to history, right after it has been executed.
+PROMPT_COMMAND='history -a'
+
+# Save multi-line commands in one history entry.
+shopt -s cmdhist
+
+# Append commands to the history file, instead of overwriting it.
+# History substitution are not immediately passed to the shell parser.
+shopt -s histappend histverify
+
+####################################################################
+#
+#     ALIASES
+#
+####################################################################
 
 #navigation
 alias ..='cd ..'
