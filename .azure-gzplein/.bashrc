@@ -1,6 +1,14 @@
 #load default .bashrc file
 test -f ~/.bashrc && . ~/.bashrc
 
+####################################################################
+#
+#     git prompt
+#
+####################################################################
+
+test -f ~/.config/git-prompt.sh && . ~/.config/git-prompt.sh
+
 export AZURE_CONFIG_DIR=C:\\Users\\dan\\.azure-gzplein;
 export HISTFILE=C:\\Users\\dan\\.azure-gzplein\\.bash_history;
 
