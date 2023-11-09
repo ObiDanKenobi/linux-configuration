@@ -7,12 +7,7 @@ test -f ~/.bashrc && . ~/.bashrc
 #
 ####################################################################
 
-if test -f ~/.config/git-prompt.sh
-then
-    . ~/.config/git-prompt.sh
-else
-    # lines omitted
-fi
+test -f ~/.config/git-prompt.sh && . ~/.config/git-prompt.sh
 
 export AZURE_CONFIG_DIR=C:\\Users\\dan\\.azure-cacao;
 export HISTFILE=C:\\Users\\dan\\.azure-cacao\\.bash_history;
