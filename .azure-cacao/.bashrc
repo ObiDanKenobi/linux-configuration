@@ -7,12 +7,12 @@ export AZURE_CONFIG_DIR=C:\\Users\\dan\\.azure-cacao;
 alias azlg='az login --tenant d27f5ae3-1ffc-4ffa-9593-a3e09246d33c --use-device-code'
 
 #switch between environments
-alias go-nonp='az account set --subscription "CACAO NON-PRODUCTION"'
-alias go-prod='az account set --subscription "CACAO PRODUCTION"'
-alias go-nonp-dev='go-nonp && rm -rf .terraform && terraform.exe init -backend-config=../environments/dev/dev.tfbackend'
-alias go-nonp-tst='go-nonp && rm -rf .terraform && terraform.exe init -backend-config=../environments/tst/tst.tfbackend'
-alias go-prod-acc='go-prod && rm -rf .terraform && terraform.exe init -backend-config=../environments/acc/acc.tfbackend'
-alias go-prod-prd='go-prod && rm -rf .terraform && terraform.exe init -backend-config=../environments/prd/prd.tfbackend'
+alias go-snonp='az account set --subscription "CACAO NON-PRODUCTION"'
+alias go-sprod='az account set --subscription "CACAO PRODUCTION"'
+alias go-dev='go-snonp && rm -rf .terraform && terraform.exe init -backend-config=../environments/dev/dev.tfbackend'
+alias go-tst='go-snonp && rm -rf .terraform && terraform.exe init -backend-config=../environments/tst/tst.tfbackend'
+alias go-acc='go-sprod && rm -rf .terraform && terraform.exe init -backend-config=../environments/acc/acc.tfbackend'
+alias go-prd='go-sprod && rm -rf .terraform && terraform.exe init -backend-config=../environments/prd/prd.tfbackend'
 
 #terraform commands
 alias tfp-dev='tfp -var-file=../environments/dev/variables.tfvars'
