@@ -11,8 +11,8 @@ alias go-nonp='az account set --subscription "CACAO NON-PRODUCTION"'
 alias go-prod='az account set --subscription "CACAO PRODUCTION"'
 alias go-nonp-dev='go-nonp && rm -rf .terraform && terraform.exe init -backend-config=../environments/dev/dev.tfbackend'
 alias go-nonp-tst='go-nonp && rm -rf .terraform && terraform.exe init -backend-config=../environments/tst/tst.tfbackend'
-alias go-nonp-acc='go-prod && rm -rf .terraform && terraform.exe init -backend-config=../environments/acc/acc.tfbackend'
-alias go-nonp-prd='go-prod && rm -rf .terraform && terraform.exe init -backend-config=../environments/prd/prd.tfbackend'
+alias go-prod-acc='go-prod && rm -rf .terraform && terraform.exe init -backend-config=../environments/acc/acc.tfbackend'
+alias go-prod-prd='go-prod && rm -rf .terraform && terraform.exe init -backend-config=../environments/prd/prd.tfbackend'
 
 #terraform commands
 alias tfp-dev='tfp -var-file=../environments/dev/variables.tfvars'
