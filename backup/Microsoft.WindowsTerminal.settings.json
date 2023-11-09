@@ -92,6 +92,16 @@
               "icon": "C:\\Users\\dan\\.azure-corendon\\corendon-icon.ico",
               "name": "Corendon Admin Bash",
               "startingDirectory": "D:\\netmatch\\corendon"
+          },
+          {
+              "colorScheme": "One Half Dark",
+              "commandline": "C:\\Program Files\\Git\\bin\\bash.exe -rcfile %USERPROFILE%\\.azure-gzplein\\.bashrc",
+              "cursorShape": "bar",
+              "guid": "{a9674c23-c305-4a86-8216-3cefbd2c3aac}",
+              "hidden": false,
+              "icon": "C:\\Users\\dan\\.azure-gzplein\\gzplein-icon.ico",
+              "name": "GzPlein Bash",
+              "startingDirectory": "D:\\netmatch\\gzplein\\infrastructure\\terraform\\infrastructure\\module"
           }
       ]
   },
