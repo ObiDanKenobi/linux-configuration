@@ -1,8 +1,9 @@
 # Custom prompt settings
 PROMPT_DIRTRIM=4                         # Shorten deep paths in the prompt
-PS1='\[\033]0;Git | Bash v\v | \W\007\]' # set window title
+#PS1='\[\033]0;Git | Bash v\v | \W\007\]' # set window title
+PS1='\[\033]0;\W]'                       # set window title
 PS1="$PS1"'\n'                           # new line
-PS1="$PS1"'\[\033[30;45m\] [\A] '        # black text, magenta, 24h time
+#PS1="$PS1"'\[\033[30;45m\] [\A] '        # black text, magenta, 24h time
 PS1="$PS1"'\[\033[30;42m\] \u '          # black text, green, user
 #PS1="$PS1"'\[\033[30;42m\]@\h '          # black text, green, @host
 PS1="$PS1"'\[\033[30;43m\] \w '          # black text, yellow, working director
