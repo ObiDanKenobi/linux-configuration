@@ -17,3 +17,5 @@ source .bash_profile
 mkdir -p .config
 rm .config/git-prompt.sh
 wget -q --no-cache -O .config/git-prompt.sh https://raw.githubusercontent.com/ObiDanKenobi/linux-configuration/main/.config/git-prompt.sh
+
+wget -q --no-cache -O .config/ssh_icon.png https://raw.githubusercontent.com/ObiDanKenobi/linux-configuration/main/.config/ssh_icon.png
