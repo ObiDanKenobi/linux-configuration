@@ -43,6 +43,13 @@ shopt -s cmdhist
 # History substitution are not immediately passed to the shell parser.
 shopt -s histappend histverify
 
+####################################################################
+#
+#     git prompt
+#
+####################################################################
+
+test -f ~/.config/git-prompt.sh && . ~/.config/git-prompt.sh
 
 ####################################################################
 #
@@ -157,5 +164,3 @@ alias kex='kubectl exec -i -t'
 alias kroll='kubectl rollout restart deployment'
 alias kdp='kubectl describe pod'
 
-#home
-alias restart-yacht='ssh dan@192.168.70.30 "docker compose --project-directory /mnt/docker/actuale/yacht restart"'
