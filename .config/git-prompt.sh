@@ -1,5 +1,5 @@
 # Custom prompt settings
-PROMPT_DIRTRIM=4                         # Shorten deep paths in the prompt
+#PROMPT_DIRTRIM=8                         # Shorten deep paths in the prompt
 #PS1='\[\033]0;Git | Bash v\v | \W\007\]' # set window title
 PS1='\[\033]0;\W]'                       # set window title
 PS1="$PS1"'\n'                           # new line
