@@ -164,3 +164,4 @@ alias kex='kubectl exec -i -t'
 alias kroll='kubectl rollout restart deployment'
 alias kdp='kubectl describe pod'
 
+#something
