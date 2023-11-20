@@ -96,8 +96,8 @@ alias cpu5='ps auxf | sort -nr -k 3 | head -n 5'
 alias mem5='ps auxf | sort -nr -k 4 | head -n 5'
 
 #docker-compose
-alias dcu='docker-compose up'
-alias dcd='docker-compose down'
+alias dcu='docker compose up -d && docker compose logs -f'
+alias dcd='docker compose down'
 
 #git commands
 alias gs='git status '
