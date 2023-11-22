@@ -13,10 +13,8 @@ PS1="$PS1"'\[\033[30;42m\]@\h '          # black text, green, @host
 PS1="$PS1"'\[\033[30;43m\] \w '          # black text, yellow, working director
 if test -z "$WINELOADERNOEXEC"
 then
-    PS1="$PS1"'\[\033[97;46m\]'
-	#PS1="$PS1""\$(parse_git_branch)"
-	PS1="$PS1"'`parse_git_branch`'
-	echo "inside"
+    PS1="$PS1"'\[\033[97;46m\]' 
+    PS1="$PS1"'`parse_git_branch`'
 fi
 PS1="$PS1"'\[\033[0m\]'        # change color
 PS1="$PS1"'\n'                 # new line
