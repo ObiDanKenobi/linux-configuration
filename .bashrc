@@ -140,6 +140,7 @@ alias azld='az login --use-device-code '
 
 #kubectl
 alias k='kubectl'
+alias k-ctx='kubectl config use-context '
 alias kns='kubectl-ns'
 alias kcx='kubectl-ctx'
 alias kgde='kubectl get deployment'
