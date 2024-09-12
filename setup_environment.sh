@@ -6,7 +6,7 @@
 #
 ##################################
 rm .common_bashrc
-wget -q --no-cache -O .bashrc https://raw.githubusercontent.com/ObiDanKenobi/linux-configuration/main/.common_bashrc
+wget -q --no-cache -O .common_bashrc https://raw.githubusercontent.com/ObiDanKenobi/linux-configuration/main/.common_bashrc
 
 rm .bashrc
 wget -q --no-cache -O .bashrc https://raw.githubusercontent.com/ObiDanKenobi/linux-configuration/main/.bashrc
