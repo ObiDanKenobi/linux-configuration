@@ -165,3 +165,11 @@ alias klo='kubectl logs -f'
 alias kex='kubectl exec -i -t'
 alias kroll='kubectl rollout restart deployment'
 alias kdp='kubectl describe pod'
+
+#local development
+alias nvim-corendon="cd /d/development/code-server-corendon-infra/ && nvim"
+alias nvim-corendon-nm="cd /d/development/code-server-corendon-nm-infra/ && nvim"
+alias nvim-config="cd /home/dan/.config/nvim && nvim"
+alias nvim-desktop-setup="cd /d/nextcloud/install/desktop-setup/ && nvim"
+alias nvim-code-server="cd /d/development/code-server/ && nvim"
+alias nvim-home="cd /d/development/code-server-home/ && nvim"
