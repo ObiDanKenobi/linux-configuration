@@ -173,12 +173,3 @@ alias nvim-config="cd /home/dan/.config/nvim && nvim"
 alias nvim-desktop-setup="cd /d/nextcloud/install/desktop-setup/ && nvim"
 alias nvim-code-server="cd /d/development/code-server/ && nvim"
 alias nvim-home="cd /d/development/code-server-home/ && nvim"
-
-if command -v direnv &> /dev/null; then
-  eval "$(direnv hook bash)"
-  echo "direnv loaded"
-fi
-
-echo "HOME=$HOME"
-echo "FIZ_CLIENT=$FIZ_CLIENT"
-echo "AZURE_CONFIG_DIR=$AZURE_CONFIG_DIR"
