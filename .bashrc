@@ -36,3 +36,8 @@ if [ -n "$FIZ_CLIENT" ]; then
 else
   echo "no FIZ_CLIENT set"
 fi
+
+if command -v fzf &>/dev/null; then
+  # Set up fzf key bindings and fuzzy completion
+  eval "$(fzf --bash)"
+fi
