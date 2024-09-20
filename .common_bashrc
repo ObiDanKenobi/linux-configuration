@@ -191,6 +191,7 @@ fi
 
 export FZF_DEFAULT_COMMAND="fd --type f"
 export FZF_DEFAULT_OPTS="--preview 'bat --color=always {}' --inline-info"
-alias fzfh="fd --type f --hidden --follow --exclude .git --exclude .var --exclude .mozilla --exclude .cache --exclude .docker --exclude .npm --exclude .themes --exclude .cursor --exclude .azure | fzf"
-alias cdf='cd $(fd --type d --hidden | fzf)'
 alias ff='fzf'
+alias ffa="fd --type f --hidden --follow --exclude .git --exclude .var --exclude .mozilla --exclude .cache --exclude .docker --exclude .npm --exclude .themes --exclude .cursor --exclude .azure | fzf"
+alias ffh="fd --type f --hidden --max-depth 1 | fzf"
+alias cdf='cd $(fd --type d --hidden | fzf)'
