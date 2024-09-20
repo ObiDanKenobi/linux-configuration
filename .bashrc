@@ -38,6 +38,7 @@ else
 fi
 
 if command -v fzf &>/dev/null; then
+  echo "fzf found. Setting up key bindings"
   # Set up fzf key bindings and fuzzy completion
   eval "$(fzf --bash)"
 fi
