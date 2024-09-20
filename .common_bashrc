@@ -177,3 +177,19 @@ alias nvim-home="cd /d/development/code-server-home/ && nvim"
 #fedora shortcuts
 alias sdu='sudo dnf update --refresh'
 alias sma='sudo mount -a'
+
+################################################################################
+#
+# Fuzzy finder settings
+#
+################################################################################
+if command -v fzf &>/dev/null; then
+  echo "fzf found. Setting up key bindings"
+  # Set up fzf key bindings and fuzzy completion
+  eval "$(fzf --bash)"
+fi
+
+export FZF_DEFAULT_COMMAND="fd --type f"
+export FZF_DEFAULT_OPTS="--preview 'bat --color=always {}' --inline-info"
+alias fzfh="fd --type f --hidden --follow --exclude .git --exclude .var --exclude .mozilla --exclude .cache --exclude .docker --exclude .npm --exclude .themes --exclude .cursor --exclude .azure | fzf"
+alias cdfzf='cd $(fd --type d --hidden | fzf)'
