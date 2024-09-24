@@ -127,7 +127,7 @@ alias gr='git reset '
 alias gta='git tag -a '
 
 #terraform
-alias tfi='terraform init '
+alias tfi='terraform init -upgrade'
 alias tfibc='terraform init -backend-config'
 alias tfp='terraform plan '
 alias ctfp='clear & terraform plan '
