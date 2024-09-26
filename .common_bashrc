@@ -173,6 +173,9 @@ alias nvim-config="cd /home/dan/.config/nvim && nvim"
 alias nvim-desktop-setup="cd /d/nextcloud/install/desktop-setup/ && nvim"
 alias nvim-code-server="cd /d/development/code-server/ && nvim"
 alias nvim-home="cd /d/development/code-server-home/ && nvim"
+alias nvim-netmatch="cd /d/development/code-server-netmatch/ && nvim"
+alias nvim-gzplein="cd /d/development/code-server-gzplein/ && nvim"
+alias nvim-cacao="cd /d/development/code-server-cacao/ && nvim"
 
 #fedora shortcuts
 alias sdu='sudo dnf update --refresh'
