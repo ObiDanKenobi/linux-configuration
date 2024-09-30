@@ -33,7 +33,7 @@ if [ -n "$FIZ_CLIENT" ]; then
   else
     echo "no .bashrc file found for FIZ_CLIENT=$FIZ_CLIENT"
   fi
-  export AZURE_CONFIG_DIR=/d/development/code-server/environments/code-server-$FIZ_CLIENT/.azure-$FIZ_CLIENT
+  export AZURE_CONFIG_DIR=/d/development/code-server/environments/code-server-$FIZ_CLIENT/.HOME/.azure-$FIZ_CLIENT
 else
   echo "no FIZ_CLIENT set"
 fi
