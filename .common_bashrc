@@ -198,3 +198,6 @@ alias ff='fzf'
 alias ffa='fd --type f --hidden --follow --exclude .git --exclude .var --exclude .mozilla --exclude .cache --exclude .docker --exclude .npm --exclude .themes --exclude .cursor --exclude .azure | fzf'
 alias ffh='fd --type f --hidden --max-depth 1 | fzf'
 alias cdf='cd $(fd --type d --hidden | fzf --no-preview)'
+
+# flatpack apps
+alias wezterm='flatpak run org.wezfurlong.wezterm'
